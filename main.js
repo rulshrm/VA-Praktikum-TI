@@ -57,13 +57,13 @@ buttonElement.addEventListener('click', () => {
 
   // Menampilkan hasil di modal
   modalContentElement.innerHTML = `<p>VA Code: ${result}</p>`;
-  
+
   // Membuat tombol salin
   const copyButton = document.createElement('button');
   copyButton.textContent = 'Copy Code';
   copyButton.classList.add('copy-button');
   modalContentElement.appendChild(copyButton);
-  
+
   // Menambahkan event listener ke tombol salin
   copyButton.addEventListener('click', () => {
     navigator.clipboard.writeText(result)
