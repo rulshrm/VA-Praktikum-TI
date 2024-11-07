@@ -67,8 +67,8 @@ buttonElement.addEventListener('click', () => {
   // Menambahkan event listener ke tombol salin
   copyButton.addEventListener('click', () => {
     navigator.clipboard.writeText(result)
-      .then(() => alert('Code copied to clipboard!'))
-      .catch((err) => alert('Failed to copy code: ', err));
+      .then(() => alert('Kode VA berhasil disalin!, Silahkan Lakukan Transfer ke VA Bank Muamalat Tersebut'))
+      .catch((err) => alert('Kesalahan gagal disalin: ', err));
   });
 
   modalContentElement.appendChild(closeButton);
