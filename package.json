@@ -1,0 +1,17 @@
+{
+  "name": "va-praktikum-ti",
+  "version": "1.0.0",
+  "description": "VA Bank Muamalat Generator adalah aplikasi sederhana yang digunakan untuk membuat Virtual Account (VA) Bank Muamalat, khususnya untuk keperluan pembayaran praktikum Algoritma dan Pemrograman Teknik Informatika Semester 1 2024.",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.1",
+    "vercel": "^39.2.5",
+    "vite": "^6.0.7"
+  }
+}
