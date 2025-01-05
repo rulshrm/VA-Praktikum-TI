@@ -32,8 +32,9 @@ VA Bank Muamalat Generator adalah aplikasi sederhana yang digunakan untuk membua
 ## Teknologi yang Digunakan
 
 - **HTML5**: Untuk struktur markup dan layout halaman.
-- **CSS3**: Untuk styling antarmuka pengguna yang lebih menarik.
+- **SASS**: Untuk penulisan CSS yang lebih efisien dan terstruktur.
 - **JavaScript**: Untuk logika aplikasi termasuk penggunaan `localStorage`, modal pop-up, dan validasi input.
+- **VITE**: Untuk pengembangan frontend yang lebih cepat dan efisien.
 - **Vercel**: Hosting platform untuk mempublikasikan aplikasi secara online.
 
 ## Instalasi Lokal (Opsional)
