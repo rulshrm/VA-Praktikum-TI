@@ -79,4 +79,4 @@ Jika Anda memiliki ide untuk pengembangan lebih lanjut atau menemukan bug, silak
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah MIT License. Silakan lihat file LICENSE untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah MIT License. Silakan lihat file [LICENSE](/LICENSE) untuk informasi lebih lanjut.
