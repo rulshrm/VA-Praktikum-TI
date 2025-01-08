@@ -44,14 +44,22 @@ Jika Anda ingin menjalankan aplikasi secara lokal, ikuti langkah-langkah berikut
 1. Clone repository:
    ```bash
    git clone https://github.com/rulshrm/va-praktikum-ti.git
-
+   ```
 2. Masuk ke direktori aplikasi:
    ```bash
    cd va-praktikum-ti
-
-3. Jalankan aplikasi:
+   ```
+3. Install dependencies:
    ```bash
-   index.html
+   npm install
+   ```
+4. Kemudian, jalankan server lokal:
+   ```bash
+   npx vite
+   ```
+5. Build aplikasi:
+   ```bash
+   npx vite build
    ```
 
 ## Struktur Aplikasi
