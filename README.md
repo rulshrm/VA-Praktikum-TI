@@ -1,6 +1,6 @@
-# VA Bank Muamalat Generator
+# VA Praktikum TI Generator
 
-VA Bank Muamalat Generator adalah aplikasi sederhana yang digunakan untuk membuat Virtual Account (VA) Bank Muamalat, khususnya untuk keperluan pembayaran praktikum Algoritma dan Pemrograman Teknik Informatika Semester 1 2024.
+VA Praktikum TI Generator adalah aplikasi sederhana yang digunakan untuk membuat Virtual Account (VA) Bank Muamalat, khususnya untuk keperluan pembayaran praktikum Algoritma dan Pemrograman Teknik Informatika Semester 1 2024.
 
 ## Fitur
 
