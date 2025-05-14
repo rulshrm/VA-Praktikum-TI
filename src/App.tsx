@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import React from "react";
 import { Header } from "./components/Header";
 import { Form } from "./components/Form";
@@ -9,6 +10,7 @@ export const App: React.FC = () => {
         <Header />
         <Form />
       </div>
+      <SpeedInsights />
     </div>
   );
 };
