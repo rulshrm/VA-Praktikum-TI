@@ -33,10 +33,22 @@ describe("Form Component", () => {
   it("validates NIM input", () => {
     render(<Form />);
 
+    // First select a semester to pass the semester validation
+    const semesterSelect = screen.getByLabelText(/Semester/);
+    fireEvent.change(semesterSelect, { target: { value: "1" } });
+
+    // Then select a praktikum
+    const praktikumSelect = screen.getByLabelText(/Praktikum/);
+    fireEvent.change(praktikumSelect, { target: { value: "10" } });
+
+    // Then try with invalid NIM
     const nimInput = screen.getByLabelText(/NIM/);
     fireEvent.change(nimInput, { target: { value: "abc" } });
+
+    // Now try to generate
     fireEvent.click(screen.getByRole("button", { name: /Generate/ }));
 
+    // Now we should see the NIM validation error
     expect(screen.getByText("NIM harus berupa angka.")).toBeInTheDocument();
   });
 
