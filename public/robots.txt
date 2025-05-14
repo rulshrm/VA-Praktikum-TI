@@ -2,18 +2,21 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
+# Optimize crawling
+Crawl-delay: 5
+
+# Sitemap
 Sitemap: https://va-praktikum-ti.vercel.app/sitemap.xml
 
-# Disallow access to API routes and certain paths
+# Prevent crawling of non-essential paths
 Disallow: /api/
 Disallow: /private/
 Disallow: /admin/
 Disallow: /*.json$
 Disallow: /*?*
 
-# Crawl-delay for all bots
-Crawl-delay: 10
-
 # Host
 Host: https://va-praktikum-ti.vercel.app
+
+# Cache time
+Cache-Control: max-age=3600
