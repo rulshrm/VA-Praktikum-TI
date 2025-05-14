@@ -9,8 +9,7 @@
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "analyze": "source-map-explorer 'dist/assets/*.js'",
-    "preinstall": "npx only-allow pnpm"
+    "analyze": "source-map-explorer 'dist/assets/*.js'"
   },
   "author": "",
   "license": "ISC",
