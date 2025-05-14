@@ -7,8 +7,10 @@ export const Header: React.FC = () => {
         Create VA Bank Muamalat
       </h1>
       <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto px-4">
-        Create VA Bank Muamalat untuk pembayaran biaya praktikum Algoritma dan
-        Pemrograman Teknik Informatika Semester 1 2024
+        Aplikasi ini membantu Anda membuat Virtual Account (VA) Bank Muamalat
+        untuk pembayaran biaya praktikum di Fakultas Sains dan Teknologi. Pilih
+        semester dan jenis praktikum yang akan Anda ambil, masukkan NIM Anda,
+        dan dapatkan kode VA untuk pembayaran.
       </p>
     </header>
   );
